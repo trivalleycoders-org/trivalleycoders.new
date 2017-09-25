@@ -1,0 +1,42 @@
+/* About */
+
+/*.aboutSection {
+  background-image: url('images/green-keyboard.1905x942.png');
+  background-size: cover;
+}*/
+
+h2.tagline, h4.subtagline {
+  margin: 0;
+}
+
+.tagline {
+  padding-bottom: 15px;
+  font-style: italic;
+}
+
+.subtagline {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.philosopyHeading {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.joinMeetupLogo {
+  max-width: 40px;
+}
+.joinUsText {
+  font-size: 1.2em;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.joinUsButtonContainer {
+  padding-top: 40px;
+  text-align: center;
+}

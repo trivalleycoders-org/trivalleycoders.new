@@ -1,0 +1,22 @@
+/* Member */
+
+.memberItem {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15px 10px;
+  justify-content: space-between;
+  max-width: 130px;
+  text-align: center;
+}
+
+.memberImg {
+  max-height: 110px;
+}
+
+.memberName {
+  font-weight: bold;
+}
+
+.memberRole {
+  margin-top: 3px;
+}

@@ -1,0 +1,26 @@
+/*Event*/
+
+.eventsPanel {
+  border: none;
+  padding-bottom: 5px;
+}
+.nameCol {
+  margin-bottom: 10px;
+}
+#nameAnchor {
+  color: #34E97C;
+  font-weight: bold;
+  text-decoration: none;
+}
+#nameAnchor:hover {
+  text-decoration-line: underline;
+}
+.locationName {
+  margin-bottom: 0;
+}
+.locationAddress {
+  margin-bottom: 0;
+}
+.odd {
+  background-color: rgba(180,180,180,0.1);
+}

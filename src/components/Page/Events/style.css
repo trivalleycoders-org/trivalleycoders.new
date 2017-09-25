@@ -1,0 +1,48 @@
+/* Events */
+
+.failedMessage {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 15px 0 15px 0;
+}
+
+.panel {
+  background-color: transparent;
+  border-radius: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.left {
+  width: 0.5833333333;
+  margin: 0 15px;
+}
+
+.right {
+  margin: auto;
+  padding-left: 10px;
+}
+
+.imgLaptopCoffee {
+  max-width: 400px;
+}
+
+.mediumWidthContainer {
+  margin-left: 50px;
+}
+
+
+.centerText {
+  text-align: center;
+}
+
+.leftAlign {
+  text-align: left;
+}

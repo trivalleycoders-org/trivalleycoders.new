@@ -1,0 +1,76 @@
+/* TopBarDesktop */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.topBar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  /*background-color: green;*/
+  /*min-width: 850px;*/
+}
+img {
+  vertical-align: middle;
+}
+.imgResponsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.brand {
+  width:100%;
+}
+.brandingDesktop {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 10;
+  padding: 0 20px 0 10px;
+  /* calc ( min + (max-min) * ( (100vw - vpStart) / (vpEnd - vpStart) ))*/
+  /*font-size: calc( 14px + (16 - 14) * ( (50vw - 400px) / ( 800 - 400) ));*/
+}
+
+.brandDesktop {
+  font-size: 2.0em;
+  margin-left: 20px;
+}
+a.menuItem {
+  text-decoration: none;
+}
+.menuItem {
+  background-color: transparent;
+  border: 1px solid #58565a;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-align:center;
+}
+.menuItem:hover {
+  border-color: #22C365;
+  box-shadow: 0 0 0 8px rgba(34, 195, 101, 0.1);
+  color: white;
+}
+.desktopMenuItem {
+  margin: 0.4em;
+  padding: 3px 20px;
+}
+.desktopMenuItems {
+  align-items: center;
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.wordTrivalleyDesktop {
+  font-family: 'Wallpoet', cursive;
+  font-size: 2.6em;
+}
+.wordCodersDesktop {
+  color: #53EB76;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 3.0em;
+  font-weight: 700;
+}
