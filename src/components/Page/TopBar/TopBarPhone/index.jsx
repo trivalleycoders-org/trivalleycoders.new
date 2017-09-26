@@ -52,11 +52,12 @@ class TopBarPhone extends Component {
             &nbsp;
             <span className={styles.wordCodersPhone}>coders</span>
           </div>
+          <div id='phone-4' className={styles.hamburgerDiv} onClick={() => handleHamburgerClick()}>
+            <span id='phone-5' className={hamburgerStyles} aria-hidden="true">
+            </span>
+          </div>
         </div>
-        <div id='phone-4' className={styles.hamburgerDiv} onClick={() => handleHamburgerClick()}>
-          <span id='phone-5' className={hamburgerStyles} aria-hidden="true">
-          </span>
-        </div>
+
         <div id='phone-6' className={mobileMenuStyle}>
           {renderMenuItems}
         </div>

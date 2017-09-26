@@ -4,12 +4,9 @@ import styles from './style.css'
 import classNames from 'classnames'
 
 const TopBarDesktop = (props) => {
-  const menuItemStyles = classNames ({
-    [styles.menuItem]: true,
-    [styles.desktopMenuItem]: true,
-  })
+  
   const renderMenuItems = props.menuItems.map((m) => (
-    <a href={m.href} key={m.label} className={menuItemStyles}>{m.label}</a>
+    <a href={m.href} key={m.label} className={styles.menuItem}>{m.label}</a>
       ))
 
   return (

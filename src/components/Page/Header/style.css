@@ -14,13 +14,13 @@ h2.tagline, h4.subtagline {
   font-style: italic;
 }
 
-.subtagline {
-  font-weight: bold;
+.subTagline {
+  font-style: italic;
   text-align: center;
   padding-bottom: 50px;
 }
 
-.philosopyHeading {
+.philosophyHeading {
   margin-top: 15px;
   margin-bottom: 10px;
 }
